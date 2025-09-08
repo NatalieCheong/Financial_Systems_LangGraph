@@ -1,4 +1,4 @@
-# Financial Analysis AI Agents with LangGraph
+# Financial Analysis AI Agents with LangSmith
 
 A comprehensive financial analysis system that uses LangGraph to orchestrate AI agents for stock analysis and automated report generation. The system fetches real-time financial data using yfinance, performs technical and fundamental analysis, and generates professional investment reports with workflow visualizations.
 
