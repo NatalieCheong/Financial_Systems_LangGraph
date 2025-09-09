@@ -37,12 +37,6 @@ Execution Traces: Step-by-step workflow progress tracking
 Analysis Dashboards: Combined view of results and process flow
 Interactive Charts: Professional financial charts with technical indicators
 
-### LangGraph Workflow System
-- **7-Step Analysis Pipeline**: Data collection → Technical analysis → Fundamental analysis → Market sentiment → Insights generation → Visualization → Recommendations
-- **State Management**: Comprehensive state tracking throughout the analysis process
-- **Error Handling**: Robust error handling with graceful degradation
-- **Background Processing**: Asynchronous execution with progress tracking
-
 📊 Sample Analysis Results
 
 ### Example: Apple Inc. (AAPL) Analysis
@@ -167,7 +161,7 @@ The system will return comprehensive analysis including:
 ## 📁 Project Structure
 
 ```
-langgraph_financial_systems/
+Financial_Systems_LangGraph/
 ├── requirements.txt              # Python dependencies (Python 3.11+ compatible)
 ├── config.py                    # Configuration settings
 ├── .env.template                # Environment variables (create this)
