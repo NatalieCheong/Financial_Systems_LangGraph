@@ -66,7 +66,7 @@ git clone https://github.com/NatalieCheong/Financial_Systems_using_LangGraph.git
 cd Financial_Systems_using_LangGraph
 
 # Create virtual environment with Python 3.11
-python3.11 -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
