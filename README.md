@@ -13,7 +13,7 @@ A comprehensive financial analysis system that uses LangGraph to orchestrate AI 
 - **Real-time Data**: Live stock data via yfinance API
 - **LangGraph API Server**: RESTful API for programmatic access
 
-Phase 1: Financial Data Analysis with LangGraph
+### Phase 1: Financial Data Analysis with LangGraph
 
 Multi-Stock Analysis: Analyze single stocks, compare multiple stocks, or evaluate entire portfolios
 Technical Analysis: RSI, moving averages, volatility analysis, trend signals
@@ -22,7 +22,7 @@ Market Sentiment: AI-powered news sentiment analysis
 Automated Visualizations: Price charts with technical indicators
 Real-time Data: Live stock data via yfinance API
 
-Phase 2: AI-Powered Report Writer
+### Phase 2: AI-Powered Report Writer
 
 Professional Reports: Executive summaries, detailed analysis, investor presentations
 Multiple Formats: Structured reports with market analysis, technical/fundamental sections
@@ -30,7 +30,7 @@ Risk Assessment: Comprehensive risk analysis and mitigation strategies
 Investment Recommendations: Actionable buy/hold/sell recommendations with rationale
 Automated Compilation: Multi-section reports with proper formatting and disclaimers
 
-Phase 3: Workflow Visualization
+### Phase 3: Workflow Visualization
 
 LangGraph Workflow Diagrams: Visual representation of analysis processes
 Execution Traces: Step-by-step workflow progress tracking
