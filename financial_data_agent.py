@@ -5,6 +5,7 @@ from typing import Dict, List, Any, Optional
 from dataclasses import dataclass
 from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
+matplotlib.use('Agg')
 import seaborn as sns
 from config import Config
 
