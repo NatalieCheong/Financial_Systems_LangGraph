@@ -30,6 +30,9 @@ A comprehensive financial analysis system that uses LangGraph to orchestrate AI 
 ### Example: Apple Inc. (AAPL) Analysis
 ![AAPL Stock Chart](https://github.com/NatalieCheong/Financial_Systems_using_LangGraph/blob/master/chart/AAPL_chart.png)
 
+### Example: NVIDIA Inc. (NVDA) Workflow
+![NVDA Workflow](https://github.com/NatalieCheong/Financial_Systems_using_LangSmith/blob/master/chart/analysis_dashboard_20250908_105446.png)
+
 **Key Findings from Recent Analysis:**
 - **Recommendation**: HOLD with moderate confidence
 - **Profit Margin**: 24.3% (Strong profitability)
