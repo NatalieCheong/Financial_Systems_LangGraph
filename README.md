@@ -64,7 +64,6 @@ python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
-pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
@@ -81,71 +80,18 @@ LANGCHAIN_PROJECT=financial-analysis
 EOF
 ```
 
-### 3. Start the LangGraph API Server
+### 3. Start the LangGraph Local Deployment
 
 ```bash
-# Activate virtual environment
-source venv/bin/activate
-
 # Start the development server
-langgraph dev --host 127.0.0.1 --port 8123 --no-browser
+langgraph dev
 ```
 
 The server will start and you'll see:
 ```
-🚀 LangGraph API server running on http://127.0.0.1:8123
-📚 API Documentation: http://127.0.0.1:8123/docs
-🎨 Studio UI: https://smith.langchain.com/studio/?baseUrl=http://127.0.0.1:8123
-```
-
-### 4. Access the API Documentation
-
-Open your browser and go to: **http://127.0.0.1:8123/docs**
-
-## 📊 Using the Financial Analysis API
-
-### Step 1: Create an Assistant
-
-**POST** `/assistants`
-```json
-{
-  "graph_id": "financial_analysis",
-  "config": {}
-}
-```
-
-### Step 2: Create a Thread
-
-**POST** `/threads`
-```json
-{
-  "metadata": {
-    "name": "My Financial Analysis Thread"
-  }
-}
-```
-
-### Step 3: Run Financial Analysis
-
-**POST** `/threads/{thread_id}/runs/wait`
-
-Replace `{thread_id}` with your actual thread ID and use:
-
-```json
-{
-  "assistant_id": "your_assistant_id_here",
-  "input": {
-    "symbols": ["AAPL"],
-    "analysis_type": "single",
-    "period": "1y",
-    "messages": [
-      {
-        "content": "What is the stock price of AAPL?",
-        "role": "user"
-      }
-    ]
-  }
-}
+- 🚀 API: http://127.0.0.1:2024
+- 🎨 Studio UI: https://smith.langchain.com/studio/?baseUrl=http://127.0.0.1:2024
+- 📚 API Docs: http://127.0.0.1:2024/docs
 ```
 
 ### Example Analysis Results
