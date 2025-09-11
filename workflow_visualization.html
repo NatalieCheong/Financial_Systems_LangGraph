@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Analysis Workflow</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .workflow {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .node {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 25px;
+            font-weight: bold;
+            text-align: center;
+            min-width: 200px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        .node:hover {
+            transform: translateY(-5px);
+        }
+        .arrow {
+            font-size: 24px;
+            color: #667eea;
+            font-weight: bold;
+        }
+        .description {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            border-left: 4px solid #667eea;
+        }
+        .step-number {
+            background: rgba(255,255,255,0.2);
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏦 Financial Analysis Workflow</h1>
+        
+        <div class="workflow">
+            <div class="node">
+                <span class="step-number">1</span>
+                📊 Data Collection
+            </div>
+            <div class="arrow">↓</div>
+            
+            <div class="node">
+                <span class="step-number">2</span>
+                📈 Technical Analysis
+            </div>
+            <div class="arrow">↓</div>
+            
+            <div class="node">
+                <span class="step-number">3</span>
+                📊 Fundamental Analysis
+            </div>
+            <div class="arrow">↓</div>
+            
+            <div class="node">
+                <span class="step-number">4</span>
+                🎭 Market Sentiment
+            </div>
+            <div class="arrow">↓</div>
+            
+            <div class="node">
+                <span class="step-number">5</span>
+                💡 Generate Insights
+            </div>
+            <div class="arrow">↓</div>
+            
+            <div class="node">
+                <span class="step-number">6</span>
+                📊 Create Visualizations
+            </div>
+            <div class="arrow">↓</div>
+            
+            <div class="node">
+                <span class="step-number">7</span>
+                🎯 Final Recommendations
+            </div>
+        </div>
+        
+        <div class="description">
+            <h3>🔄 Workflow Description</h3>
+            <p><strong>This LangGraph workflow processes financial data through 7 sequential steps:</strong></p>
+            <ul>
+                <li><strong>Data Collection:</strong> Fetches stock data from Yahoo Finance</li>
+                <li><strong>Technical Analysis:</strong> Calculates RSI, moving averages, and trend signals</li>
+                <li><strong>Fundamental Analysis:</strong> Analyzes P/E ratios, profitability, and growth metrics</li>
+                <li><strong>Market Sentiment:</strong> Uses AI to analyze news and market sentiment</li>
+                <li><strong>Generate Insights:</strong> Creates comprehensive analysis using LLM</li>
+                <li><strong>Create Visualizations:</strong> Generates price charts with technical indicators</li>
+                <li><strong>Final Recommendations:</strong> Provides investment recommendations</li>
+            </ul>
+            <p><em>Each step builds upon the previous one, creating a comprehensive financial analysis system.</em></p>
+        </div>
+    </div>
+</body>
+</html>
+
