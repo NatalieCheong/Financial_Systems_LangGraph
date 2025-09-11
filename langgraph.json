@@ -1,0 +1,9 @@
+{
+  "dependencies": [
+    "."
+  ],
+  "graphs": {
+    "financial_analysis": "./studio_config.py:graph"
+  },
+  "env": "./.env"
+}
