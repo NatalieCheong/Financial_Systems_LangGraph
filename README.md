@@ -280,6 +280,20 @@ graph TD
 - **Technical Indicators**: RSI, volatility, and trend signals
 - **Professional Formatting**: Clean, publication-ready charts
 
+## 🙏 Acknowledgements
+
+### YFinance**
+For providing comprehensive, reliable financial data that serves as the foundation for all analysis conducted by this platform. 
+
+### **OpenAI**
+For the GPT-4 technology that powers the AI-enhanced economic analysis and insight generation capabilities. The advanced language model enables sophisticated interpretation of economic data and generation of professional-grade economic narratives.
+
+### **LangGraph**
+For the workflow orchestration framework that enables sophisticated multi-step economic analysis processes. LangGraph's state management and conditional routing capabilities make complex economic analysis workflows possible and maintainable.
+
+### **LangSmith**
+For the comprehensive observability, monitoring, and debugging platform that ensures production-ready AI performance. LangSmith's tracing and analytics capabilities enable continuous improvement and reliable operation of AI-powered economic analysis.
+
 ## ⚠️ Important Disclaimers
 
 **INVESTMENT DISCLAIMER**: This software is for educational and informational purposes only and does not constitute investment advice. All investments carry risk of loss. Past performance does not guarantee future results.
