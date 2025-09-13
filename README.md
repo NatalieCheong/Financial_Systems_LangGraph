@@ -286,13 +286,13 @@ graph TD
 For providing comprehensive, reliable financial data that serves as the foundation for all analysis conducted by this platform. 
 
 ### **OpenAI**
-For the GPT-4 technology that powers the AI-enhanced economic analysis and insight generation capabilities. The advanced language model enables sophisticated interpretation of economic data and generation of professional-grade economic narratives.
+For the GPT-4 technology that powers the AI-enhanced financial analysis and insight generation capabilities. The advanced language model enables sophisticated interpretation of financial data.
 
 ### **LangGraph**
-For the workflow orchestration framework that enables sophisticated multi-step economic analysis processes. LangGraph's state management and conditional routing capabilities make complex economic analysis workflows possible and maintainable.
+For the workflow orchestration framework that enables sophisticated multi-step financial analysis processes. LangGraph's state management and conditional routing capabilities make complex financial analysis workflows possible and maintainable.
 
 ### **LangSmith**
-For the comprehensive observability, monitoring, and debugging platform that ensures production-ready AI performance. LangSmith's tracing and analytics capabilities enable continuous improvement and reliable operation of AI-powered economic analysis.
+For the comprehensive observability, monitoring, and debugging platform that ensures production-ready AI performance. LangSmith's tracing and analytics capabilities enable continuous improvement and reliable operation of AI-powered financial analysis.
 
 ## ⚠️ Important Disclaimers
 
