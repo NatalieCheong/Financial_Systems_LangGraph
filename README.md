@@ -282,7 +282,7 @@ graph TD
 
 ## 🙏 Acknowledgements
 
-### YFinance**
+### **YFinance**
 For providing comprehensive, reliable financial data that serves as the foundation for all analysis conducted by this platform. 
 
 ### **OpenAI**
